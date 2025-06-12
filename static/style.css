@@ -1,0 +1,117 @@
+/* Pastel dreamy theme: lilac, baby blue, soft pink */
+body {
+    background: linear-gradient(135deg, #fbeaff, #e0f0ff, #ffe9f0);
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 40px;
+    color: #3d3d3d;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 35px 45px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(170, 160, 200, 0.25);
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.8em;
+    color: #8246af;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.15em;
+    color: #6c6c80;
+    margin-bottom: 30px;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="file"] {
+    border: 2px dashed #cbb3ff;
+    background: #faf9fd;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.95em;
+    color: #5f4d7b;
+    transition: background 0.3s ease;
+}
+
+input[type="file"]:hover {
+    background: #f3f0fa;
+}
+
+button {
+    background: linear-gradient(to right, #c084fc, #8b5cf6);
+    color: #fff;
+    padding: 12px;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #a855f7, #6b21a8);
+}
+
+.result {
+    margin-top: 30px;
+    background: #f0eaff;
+    border-left: 6px solid #b088f9;
+    padding: 20px;
+    border-radius: 12px;
+    color: #432f70;
+}
+
+.preview {
+    margin-top: 30px;
+    background: #fdfbff;
+    padding: 18px;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #e0d7f7;
+    font-size: 0.95em;
+    color: #444;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    color: #7b4bb7;
+    margin-bottom: 8px;
+}
+
+pre {
+    white-space: pre-wrap;
+    font-family: 'Courier New', monospace;
+    line-height: 1.5;
+}
+
+.error {
+    color: #d00060;
+    font-weight: bold;
+    margin-top: 20px;
+    background: #ffe9f0;
+    border-left: 5px solid #f78fb3;
+    padding: 12px;
+    border-radius: 8px;
+}
