@@ -1,5 +1,5 @@
 # 🧠 Resume Scanner – AI-Based Role Predictor
-
+ 
 
 ## 🗂️ Overview
 
@@ -7,6 +7,7 @@ The **Resume Scanner** takes a `.pdf`, `.docx`, or `.txt` file, extracts the tex
 
 This project helped build the pipeline for resume parsing, vectorization, and basic classification, which later evolved into the full RecruitGPT system.
 
+Demo video included!
 ---
 
 ## 💡 Features
