@@ -1,9 +1,5 @@
 # 🧠 Resume Scanner – AI-Based Role Predictor
 
-This is a **mini AI project** built as to serve **Phase 1** foundation for the RecruitGPT system. It scans a single resume and predicts the best-fit role using basic NLP techniques.
-Built as in the learning phase towards the main project- Recruit gpt
-
----
 
 ## 🗂️ Overview
 
